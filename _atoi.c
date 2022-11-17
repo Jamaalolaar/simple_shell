@@ -50,6 +50,7 @@ int _atoi(char *str)
 {
 	int i, sign = 1, flag = 0, output;
 	unsigned int result = 0;
+
 	i = 0;
 
 	while (*(str + i) != '\0' && flag != 2)
