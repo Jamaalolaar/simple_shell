@@ -15,10 +15,10 @@
 #define WRITE_BUF_SIZE 1024
 #define BUF_FLUSH -1
 /* for command chaining */
-#define CMD_NORM0
-#define CMD_OR1
-#define CMD_AND2
-#define CMD_CHAIN3
+#define CMD_NORM 0
+#define CMD_OR 1
+#define CMD_AND 2
+#define CMD_CHAIN 3
 /* for convert_number() */
 #define CONVERT_LOWERCASE1
 #define CONVERT_UNSIGNED2
